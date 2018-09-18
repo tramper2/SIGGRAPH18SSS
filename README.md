@@ -24,6 +24,7 @@ pip3 install -r requirements.txt
 ```
 2. Clone or download this repository.
 3. Download the [pre-trained](http://cvg.ethz.ch/research/semantic-soft-segmentation/SSS_model.zip) model.
+프리트레인드 모델은 별도로 다운 받아 
 4. Extract the model and put the extracted "model" folder into the folder where the repository is cloned.
    - e.g., If the repository is cloned at "/project/sss", then move the model to be "/project/sss/model")
 5. Run "run_extract_feat.sh", which will process sample images in the "samples" folder. If you want to run your own images, notice that image files should be the PNG formats.
